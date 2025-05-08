@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Vibrant Lands </title>
+  <!-- Jost Font Family CDN -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> -->
+
+
+  <!-- Bootstrap Bundle JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- Slick Carousel CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+</head>
+
+<body>
+  <!-- Header Section -->
+  <section id="header-main">
+    <div class="container-fluid">
+      <!-- Bootstrap Navbar -->
+      <nav class="navbar navbar-expand-md navbar-transparent bg-none">
+        <div class="container-fluid">
+          <!-- Left: Logo -->
+          <a class="navbar-brand" href="index.html">
+            <img src="./images/logo.png" alt="logo" class="logo">
+          </a>
+
+          <!-- Toggler -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Center: Navigation Links -->
+          <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse top_nav">
+            <ul class="navbar-nav mb-2 mb-md-0 gap-md-4 nav_ul">
+              <li class="nav-item">
+                <a class="nav-link text-black active fw-semibold" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black fw-semibold" href="./about.html"> About Us </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-black fw-semibold" href="#" id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Our Offerings
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="residential.html">Residential</a></li>
+                  <li><a class="dropdown-item" href="commercial.html">Commercial</a></li>
+                  <li><a class="dropdown-item" href="agricultural.html">Agricultural Land</a></li>
+                  <li><a class="dropdown-item" href="nalands.html">N.A. Lands</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black fw-semibold" href="contact.html"> Contact Us </a>
+              </li>
+            </ul>
+          </div>
+
+
+          <!-- Right: Contact Button -->
+          <div class="d-none d-md-block">
+            <a href="tel:+912248964333"> <button class="btn btn-outline-light text-black fw-semibold">Call +91 22 4896 4333</button> </a>
+          </div>
+        </div>
+      </nav>
+
+
+    </div>
+  </section>
+
+
+
+  <!-- Hero Section -->
+  <section class="banner_section" id="custom-carousel position-absolute">
+    <div id="carouselVideoExample" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <!-- Indicators -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselVideoExample" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselVideoExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselVideoExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+
+      <!-- Inner -->
+      <div class="carousel-inner banner_video">
+        <div class="carousel-item active">
+          <video class="img-fluid" autoplay loop muted>
+            <source src="videos/banner-1.mp4" type="video/mp4" />
+          </video>
+          <div class="carousel-caption  d-md-block">
+            <h2 class="text-black">Welcome to Vibrant Lands</h2>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <video class="img-fluid full-video" autoplay loop muted>
+            <source src="videos/banner-2.mp4" type="video/mp4" />
+          </video>
+          <div class="carousel-caption d-md-block">
+            <h2 class="text-black">Welcome to Vibrant Lands</h2>
+          </div>
+        </div>
+        <!-- <div class="carousel-item">
+          <video class="img-fluid" autoplay loop muted>
+            <source src="https://mdbcdn.b-cdn.net/img/video/Agua-natural.mp4" type="video/mp4" />
+          </video>
+          <div class="carousel-caption  d-md-block">
+            <h2>Welcome to Vibrant Lands</h2>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            <button type="button" class="btn btn-outline-header me-2 link-light mt-3"> Our Services </button>
+          </div>
+        </div> -->
+      </div>
+
+      <!-- Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselVideoExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselVideoExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class=" position-relative banner_options list-group  list-group-flush">
+      <ul class="banner_inner_ul d-flex">
+        <li class="banner_inner_li"><a href="placeholder.html">
+            <img src="images/icons8-prefab-house-100.png" alt="">
+            <p>Residential</p>
+          </a></li>
+        <li class="banner_inner_li"><a href="placeholder.html">
+            <img src="images/icons8-buildings-50.png" alt="">
+            <p>Commercial</p>
+          </a></li>
+        <li class="banner_inner_li"><a href="placeholder.html">
+            <img src="images/icons8-agriculture-50.png" alt="">
+            <p>Agricultural Land</p>
+          </a></li>
+        <li class="banner_inner_li"><a href="placeholder.html">
+            <img src="images/icons8-buildings-50.png" alt="">
+            <p>N.A. Land</p>
+          </a></li>
+      </ul>
+    </div>
+
+  </section>
+
+  <section class="n_a_land_section">
+    <div class="container py-5">
+      <p class="mb-4 text-center display-6">Non Agricultural Land</p>
+
+      <div id="cardCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-3">
+                <a href="placeholder.html">
+                  <div class="card n_a_land_card">
+                    <img src="images/plotting.jpg" class="card-img-top" alt="...">
+                    <div class="card-body a_n_land_card_content">
+                      <h4 class="card-title">Plotting</h4>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-3">
+                <a href="placeholder.html">
+                  <div class="card n_a_land_card">
+                    <img src="images/villas.jpg" class="card-img-top" alt="...">
+                    <div class="card-body a_n_land_card_content">
+                      <h4 class="card-title">Villas</h4>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-3">
+                <a href="placeholder.html">
+                  <div class="card n_a_land_card">
+                    <img src="images/industrial land.jpg" class="card-img-top" alt="...">
+                    <div class="card-body a_n_land_card_content">
+                      <h4 class="card-title">Industrial Lands</h4>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-3">
+                <a href="placeholder.html">
+                  <div class="card n_a_land_card">
+                    <img src="images/hotels.jpg" class="card-img-top" alt="..." style="height: 218px;">
+                    <div class="card-body a_n_land_card_content">
+                      <h4 class="card-title">Hotels</h4>
+                    </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-md-3">
+              <a href="placeholder.html">
+                <div class="card n_a_land_card">
+                  <img src="images/factory.jpg" class="card-img-top" alt="...">
+                  <div class="card-body a_n_land_card_content">
+                    <h4 class="card-title">Factory</h4>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="placeholder.html">
+                <div class="card n_a_land_card">
+                  <img src="images/real estate.jpg" class="card-img-top" alt="...">
+                  <div class="card-body a_n_land_card_content">
+                    <h4 class="card-title">Expo Real Estate</h4>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="placeholder.html">
+                <div class="card n_a_land_card">
+                  <img src="images/property management.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body a_n_land_card_content" style="margin: 0px;">
+                    <h4 class="card-title">Property Management</h4>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="placeholder.html">
+                <div class="card n_a_land_card">
+                  <img src="images/warehouse.jpg" class="card-img-top" alt="...">
+                  <div class="card-body a_n_land_card_content">
+                    <h4 class="card-title">Warehouse</h4>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Controls -->
+      <button class="carousel-control-prev n_a_land_prv_btn" type="button" data-bs-target="#cardCarousel"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next n_a_land_nxt_btn" type="button" data-bs-target="#cardCarousel"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+    </div>
+  </section>
+
+  <section class="bg-light">
+    <div class="container py-5">
+
+      <!-- Residential Section -->
+      <div class="row mb-5 align-items-start">
+        <div class="col-md-3 mb-4">
+          <div class="category-title">Residential</div>
+          <div class="divider"></div>
+          <p class="category-description">
+            Invest in serene living with luxurious amenities in prime locations for your dream home.
+          </p>
+        </div>
+
+        <div class="col-md-3 mb-4">
+          <div class="listing-card" style="background-image: url('images/factory.jpg'); height: 515px;">
+            <div>
+              <div class="listing-info">60 Listings</div>
+              <div class="listing-title">Weekend Villa</div>
+            </div>
+            <a href="placeholder.html" class="more-details">More Details</a>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+          <div class="listing-card" style="background-image: url(images/hotels.jpg); height: 515px;">
+            <div>
+              <div class="listing-info">90 Listings</div>
+              <div class="listing-title">Apartment</div>
+            </div>
+            <a href="placeholder.html" class="more-details">More Details</a>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+          <div class="listing-card" style="background-image: url(images/plotting.jpg);">
+            <div>
+              <div class="listing-info">57 Listings</div>
+              <div class="listing-title">Bungalow</div>
+            </div>
+            <a href="placeholder.html" class="more-details">More Details</a>
+          </div>
+
+          <div class="listing-card mt-3" style="background-image: url(images/property\ management.jpeg);">
+            <div>
+              <div class="listing-info">9 Listings</div>
+              <div class="listing-title">Penthouse</div>
+            </div>
+            <a href="placeholder.html" class="more-details">More Details</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Commercial Section -->
+      <div class="row align-items-start">
+        <div class="col-md-3 mb-4">
+          <div class="category-title">Commercial</div>
+          <div class="divider"></div>
+          <p class="category-description">
+            Making identifying the right space for your business simple and stress-free.
+          </p>
+        </div>
+
+        <div class="col-md-3 mb-4">
+          <div class="listing-card" style="background-image: url(images/real\ estate.jpg);">
+            <div>
+              <div class="listing-info">1857 Listings</div>
+              <div class="listing-title">Shops-Showroom</div>
+            </div>
+            <a href="placeholder.html" class="more-details">More Details</a>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+          <div class="listing-card" style="background-image: url(images/warehouse.jpg);">
+            <div>
+              <div class="listing-info">169 Listings</div>
+              <div class="listing-title">Office</div>
+            </div>
+            <a href="placeholder.html" class="more-details">More Details</a>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+          <div class="listing-card" style="background-image: url(images/warehouse.jpg);">
+            <div>
+              <div class="listing-info">169 Listings</div>
+              <div class="listing-title">Office</div>
+            </div>
+            <a href="placeholder.html" class="more-details">More Details</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <div class="container my-5">
+      <p class="mb-4 text-center display-6">Our Available Projects</p>
+
+      <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <div class="row g-3">
+              <div class="col-md-3">
+                <a href="placeholder.html" class="property-card d-block p-2">
+                  <div class="position-relative">
+                    <img src="images/factory.jpg" alt="AAYAN" class="property-img">
+                    <span class="badge position-absolute top-0 start-0 m-2 badge-sale text-white">Sale</span>
+                    <span
+                      class="badge position-absolute top-0 end-0 m-2 badge-residential text-white">Residential</span>
+                  </div>
+                  <div class="p-2">
+                    <h5 class=" text-primary">AAYAN</h5>
+                    <p class="mb-1 text-muted"><i class="bi bi-geo-alt"></i> Iscon Ambli Road, Ahmedabad</p>
+                    <p class="fw-semibold text-dark">₹2.99 CR - ₹6.21 CR</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-3">
+                <a href="placeholder.html" class="property-card d-block p-2">
+                  <div class="position-relative">
+                    <img src="images/hotels.jpg" alt="Shyaswa Sarovar" class="property-img">
+                    <span class="badge position-absolute top-0 start-0 m-2 badge-sale text-white">Sale</span>
+                    <span
+                      class="badge position-absolute top-0 end-0 m-2 badge-residential text-white">Residential</span>
+                  </div>
+                  <div class="p-2">
+                    <h5 class=" text-primary">Shyaswa Sarovar</h5>
+                    <p class="mb-1 text-muted">Shilaj, Ahmedabad</p>
+                    <p class="fw-semibold text-dark">₹4.57 CR - ₹10.29 CR</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-3">
+                <a href="placeholder.html" class="property-card d-block p-2">
+                  <div class="position-relative">
+                    <img src="images/warehouse.jpg" alt="Times 40" class="property-img">
+                    <span class="badge position-absolute top-0 start-0 m-2 badge-sale text-white">Sale</span>
+                    <span
+                      class="badge position-absolute top-0 end-0 m-2 badge-residential text-white">Residential</span>
+                  </div>
+                  <div class="p-2">
+                    <h5 class="text-primary">Times 40</h5>
+                    <p class="mb-1 text-muted">Bodakdev, Ahmedabad</p>
+                    <p class="fw-semibold text-dark">₹5.85 CR - ₹5.85 CR</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-3">
+                <a href="placeholder.html" class="property-card d-block p-2">
+                  <div class="position-relative">
+                    <img src="images/villas.jpg" alt="Venus Pashmina" class="property-img">
+                    <span class="badge position-absolute top-0 start-0 m-2 badge-sale text-white">Sale</span>
+                    <span
+                      class="badge position-absolute top-0 end-0 m-2 badge-residential text-white">Residential</span>
+                  </div>
+                  <div class="p-2">
+                    <h5 class=" text-primary">Venus Pashmina</h5>
+                    <p class="mb-1 text-muted">Bodakdev, Ahmedabad</p>
+                    <p class="fw-semibold text-dark">₹5.53 CR - ₹15.19 CR</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+            <div class="row g-3">
+              <!-- Duplicate cards or add more -->
+              <div class="col-md-3">
+                <a href="placeholder.html" class="property-card d-block p-2">
+                  <div class="position-relative">
+                    <img src="images/factory.jpg" alt="Another Project" class="property-img">
+                    <span class="badge position-absolute top-0 start-0 m-2 badge-sale text-white">Sale</span>
+                    <span
+                      class="badge position-absolute top-0 end-0 m-2 badge-residential text-white">Residential</span>
+                  </div>
+                  <div class="p-2">
+                    <h5 class=" text-primary">Project Name</h5>
+                    <p class="mb-1 text-muted">Location, Ahmedabad</p>
+                    <p class="fw-semibold text-dark">₹X.XX CR - ₹Y.YY CR</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-3">
+                <a href="placeholder.html" class="property-card d-block p-2">
+                  <div class="position-relative">
+                    <img src="images/real estate.jpg" alt="Another Project" class="property-img">
+                    <span class="badge position-absolute top-0 start-0 m-2 badge-sale text-white">Sale</span>
+                    <span
+                      class="badge position-absolute top-0 end-0 m-2 badge-residential text-white">Residential</span>
+                  </div>
+                  <div class="p-2">
+                    <h5 class=" text-primary">Project Name</h5>
+                    <p class="mb-1 text-muted">Location, Ahmedabad</p>
+                    <p class="fw-semibold text-dark">₹X.XX CR - ₹Y.YY CR</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-3">
+                <a href="placeholder.html" class="property-card d-block p-2">
+                  <div class="position-relative">
+                    <img src="images/property management.jpeg" alt="Another Project" class="property-img">
+                    <span class="badge position-absolute top-0 start-0 m-2 badge-sale text-white">Sale</span>
+                    <span
+                      class="badge position-absolute top-0 end-0 m-2 badge-residential text-white">Residential</span>
+                  </div>
+                  <div class="p-2">
+                    <h5 class=" text-primary">Project Name</h5>
+                    <p class="mb-1 text-muted">Location, Ahmedabad</p>
+                    <p class="fw-semibold text-dark">₹X.XX CR - ₹Y.YY CR</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-3">
+                <a href="placeholder.html" class="property-card d-block p-2">
+                  <div class="position-relative">
+                    <img src="images/industrial land.jpg" alt="Another Project" class="property-img">
+                    <span class="badge position-absolute top-0 start-0 m-2 badge-sale text-white">Sale</span>
+                    <span
+                      class="badge position-absolute top-0 end-0 m-2 badge-residential text-white">Residential</span>
+                  </div>
+                  <div class="p-2">
+                    <h5 class=" text-primary">Project Name</h5>
+                    <p class="mb-1 text-muted">Location, Ahmedabad</p>
+                    <p class="fw-semibold text-dark">₹X.XX CR - ₹Y.YY CR</p>
+                  </div>
+                </a>
+              </div>
+              <!-- Add 3 more cards here -->
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+
+        <!-- Indicators -->
+        <div class="carousel-indicators mt-3 oap_crsl_ind">
+          <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="0" class="active"
+            aria-current="true"></button>
+          <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="1"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Associations Section -->
+  <section class="bg-light">
+    <div class="container my-5">
+      <p class="text-center mb-4 display-6">Our Associations</p>
+
+      <div id="associationsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+        <div class="carousel-inner">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active oa_crsl">
+            <div class="d-flex justify-content-between gap-4 flex-wrap">
+              <img src="images/adani.jpg" class="img-fluid" style="height: 60px;" alt="Adani Realty">
+              <img src="images/hiranandani.jpg" class="img-fluid" style="height: 60px;" alt="Hiranandani">
+              <img src="images/arvind.jpg" class="img-fluid" style="height: 60px;" alt="Arvind SmartSpaces">
+              <img src="images/godrej.jpg" class="img-fluid" style="height: 60px;" alt="Godrej Properties">
+              <img src="images/goyal.jpg" class="img-fluid" style="height: 60px;" alt="Goyal & Co.">
+              <img src="images/lodha.jpg" class="img-fluid" style="height: 60px;" alt="Lodha Group">
+            </div>
+          </div>
+
+          <!-- Slide 2 (add more logos if needed) -->
+          <div class="carousel-item oa_crsl">
+            <div class="d-flex justify-content-between gap-4 flex-wrap">
+              <img src="images/tata.jpg" class="img-fluid" style="height: 60px;" alt="Tata Housing">
+              <img src="images/dlf.jpg" class="img-fluid" style="height: 60px;" alt="DLF">
+              <img src="images/brigade.jpg" class="img-fluid" style="height: 60px;" alt="Brigade Group">
+              <img src="images/ats.jpg" class="img-fluid" style="height: 60px;" alt="ATS">
+              <img src="images/sobha.jpg" class="img-fluid" style="height: 60px;" alt="Sobha">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stay In Touch Form -->
+  <div class="container my-5">
+    <h2 class="display-6 text-center">Stay In Touch!</h2>
+    <p class="text-muted text-center">
+      Stay updated with exclusive offers, new properties, and exciting projects delivered<br>
+      straight to your inbox every month. Don't miss out on the latest opportunities!
+    </p>
+
+    <form id="contactForm" class="mt-4">
+      <div class="row g-3">
+        <div class="col-md-6">
+          <label class="form-label">Name<span class="text-danger">*</span></label>
+          <input type="text" class="form-control" placeholder="Your Name" required>
+        </div>
+        <div class="col-md-6">
+          <label class="form-label">Email<span class="text-danger">*</span></label>
+          <input type="email" class="form-control" placeholder="Your Email Id" required>
+        </div>
+        <div class="col-md-6">
+          <label class="form-label">Contact Number<span class="text-danger">*</span></label>
+          <input type="tel" class="form-control" placeholder="Your Contact Number" required>
+        </div>
+        <div class="col-md-6">
+          <label class="form-label">Looking For</label>
+          <input type="text" class="form-control" placeholder="Looking for Projects/Properties">
+        </div>
+      </div>
+
+      <div class="form-check mt-3">
+        <input class="form-check-input" required type="checkbox" id="consent">
+        <label class="form-check-label small" for="consent">
+          I agree to being contacted by Kunvarji Realty through WhatsApp, SMS, phone, email, and other communication
+          channels.
+        </label>
+      </div>
+
+      <button type="submit" class="btn btn-warning text-dark mt-3 px-4">Count me in!</button>
+    </form>
+
+    <!-- Acknowledgment Message -->
+    <div id="ackMessage" class="alert alert-success mt-4 d-none" role="alert">
+      Thank you for subscribing! We'll keep you posted.
+    </div>
+  </div>
+
+
+
+
+  <!-- footer -->
+
+  <!-- Footer -->
+  <footer class="py-5 text-black bg-light"> <!-- You can remove bg if needed -->
+    <div class="container">
+      <div class="row gy-4 justify-content-between lh-lg">
+
+        <!-- Column 1: Contact Info -->
+        <div class="col-md-4">
+          <img src="images/logo.png" alt="vibrantlands Logo" class="mb-2" style="max-width: 170px; max-height:115px ;">
+          <p class="small mb-1"><i class="bi bi-geo-alt-fill me-2"></i>Vibrant Lands Pvt. Ltd, Central Avenue,Vibrant
+            Lands, Mumbai - 400076</p>
+          <div>
+            <p class="small mb-1 fw-bold">Sales Enquiry</p>
+            <div class="d-flex justify-content-between">
+              <div>
+                <p class="small mb-1">Powai</p>
+                <p class="small mb-1"><i class="bi bi-envelope-fill me-2"></i>sales@vibrantlands.net</p>
+                <p class="small mb-1"><i class="bi bi-telephone-fill me-2"></i>+91 22 4896 4333</p>
+              </div>
+              <div>
+                <p class="small mb-1">Thane</p>
+                <p class="small mb-1"><i class="bi bi-envelope-fill me-2"></i>thanesales@vibrantlands.net </p>
+                <p class="small mb-1"><i class="bi bi-telephone-fill me-2"></i>+91 22 4893 0210</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Column 2: Quick Links -->
+        <div class="col-md-3">
+          <h6 class="fw-bold">Quick Links</h6>
+          <ul class="list-unstyled small">
+            <li><a href="#" class="text-black text-decoration-none">Commercial Projects</a></li>
+            <li><a href="#" class="text-black text-decoration-none">Residential Projects</a></li>
+            <li><a href="#" class="text-black text-decoration-none">Commercial Properties</a></li>
+            <li><a href="#" class="text-black text-decoration-none">Projects</a></li>
+            <li><a href="#" class="text-black text-decoration-none">Homes</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Useful Links -->
+        <div class="col-md-2">
+          <h6 class="fw-bold">Useful Links</h6>
+          <ul class="list-unstyled small">
+            <li><a href="index.html" class="text-black text-decoration-none">Home</a></li>
+            <li><a href="about.html" class="text-black text-decoration-none">About Us</a></li>
+            <li><a href="#" class="text-black text-decoration-none">Career</a></li>
+            <li><a href="contact.html" class="text-black text-decoration-none">Contact Us</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <a href="https://wa.me/912248964333" class="whatsapp-float" target="_blank">
+      <i class="bi bi-whatsapp"></i>
+  </a>
+  </footer>
+
+  <!-- Bootstrap Icons (required for icons like envelope, phone) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+
+
+
+  <!-- JS for Form Submission Acknowledgement -->
+  <script>
+    document.getElementById("contactForm").addEventListener("submit", function (e) {
+      e.preventDefault();
+      document.getElementById("ackMessage").classList.remove("d-none");
+      this.reset();
+    });
+  </script>
+
+</body>
+
+</html>

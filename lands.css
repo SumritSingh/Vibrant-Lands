@@ -1,0 +1,83 @@
+* {
+    font-family: "Alegreya", sans-serif;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 20px;
+    font-size: 1rem;
+}
+
+.call-btn {
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 5px 15px;
+    color: #000;
+    text-decoration: none;
+}
+
+.call-btn:hover {
+    background-color: #f8f9fa;
+    color: #000;
+    text-decoration: none;
+}
+
+.nav_a img {
+    width: 100px;
+    height: 60px;
+}
+
+.lands_img img{
+    transition: transform 0.3s ease-in-out;
+}
+
+.lands_img img:hover{
+    transform: scale(1.1);;
+}
+
+.coming-icon {
+    width: 50%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.btn-yellow {
+    background-color: #03A4E0;
+    color: white;
+    font-weight: 500;
+}
+
+.btn-yellow:hover {
+    background-color: #23c2fb;
+    color: white;
+}
+
+/* Floating WhatsApp Button */
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    border-radius: 50%;
+    padding: 10px 15px;
+    font-size: 24px;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+    text-decoration: none;
+    color: white;
+}
+
+/* Adjust size for smaller screens */
+@media (max-width: 576px) {
+    .whatsapp-float {
+        padding: 12px 14px;
+        font-size: 20px;
+        bottom: 15px;
+        right: 15px;
+    }
+}
