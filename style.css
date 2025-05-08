@@ -20,6 +20,10 @@ img {
     box-sizing: border-box;
 }
 
+.header_section{
+  box-shadow: inset 0px 130px 61px -80px #000000;
+}
+
 .btn-outline-custom {
 
     background-color: var(--primary-color);
