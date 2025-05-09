@@ -663,7 +663,8 @@ ul.list-style-one {
   }
 
   img.logo{
-    width: 60px;
+    width: 100px;
+    height: 60px;
   }
 
   .hamburger{
@@ -686,6 +687,17 @@ ul.list-style-one {
 
   .n_a_land_section{
     margin-top: 100%;
+  }
+
+  .nav_colps{
+    padding: 10px;
+    background-color: #ffffff9c;
+    border-radius: 10px;
+  }
+
+  .oo_drpdwn{
+    background: transparent;
+    border: none;
   }
 
 }

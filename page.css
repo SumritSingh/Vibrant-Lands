@@ -128,11 +128,15 @@
 }
 
 /* Adjust size for smaller screens */
-@media (max-width: 576px) {
+@media (max-width: 786px) {
     .whatsapp-float {
         padding: 12px 14px;
         font-size: 20px;
         bottom: 15px;
         right: 15px;
+    }
+
+    .cal_ctn{
+        margin: auto;
     }
 }
