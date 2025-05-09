@@ -142,7 +142,8 @@ video.img-fluid {
 }
 
 .banner_options{
-  transform: translate(0%, -145%);
+    transform: translate(50%, 50%);
+    top: 138%;
     z-index: 99;
     text-align: center;
     padding: 30px;
