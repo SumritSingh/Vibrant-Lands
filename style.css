@@ -686,7 +686,7 @@ ul.list-style-one {
   }
 
   .n_a_land_section{
-    margin-top: 100%;
+    margin-top: 90%;
   }
 
   .nav_colps{
@@ -698,6 +698,10 @@ ul.list-style-one {
   .oo_drpdwn{
     background: transparent;
     border: none;
+  }
+
+  .nacards{
+    margin-left: 22px;
   }
 
 }
