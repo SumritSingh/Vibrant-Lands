@@ -627,3 +627,54 @@ ul.list-style-one {
       right: 15px;
   }
 }
+
+@media (max-width: 576px) {
+
+  .banner_options{
+    transform: translate(0%, 207%);
+    width: 90%;
+    height: 31%;
+    padding: 7px;
+  }
+
+  .banner_inner_ul {
+    padding: 0px;
+    width: 100%;
+  }
+
+  .banner_inner_li {
+    width: 18%;
+  }
+
+  .banner_inner_li img{
+    width: 50%;
+    height: 60%;
+  }
+
+  .banner_section{
+    height: 210px;
+  }
+
+  .banner_video{
+    height: 100%;
+  }
+
+  img.logo{
+    width: 60px;
+  }
+
+  .hamburger{
+    background-color: transparent;
+    color: white;
+    border: none;
+  }
+
+  .banner_inner_li p{
+    font-size: xx-small;
+  } 
+
+  .header_section{
+    box-shadow: inset 0px 133px 45px -119px #000000
+  }
+
+}

@@ -32,33 +32,26 @@
   <section class="header_section" id="header-main">
     <div class="container-fluid">
       <!-- Bootstrap Navbar -->
-      <nav class="navbar navbar-expand-md navbar-transparent bg-none">
+      <nav class="navbar navbar-expand-md navbar-dark bg-transparent">
         <div class="container-fluid">
-          <!-- Left: Logo -->
+      
           <a class="navbar-brand" href="index.html">
             <img src="./images/logo.png" alt="logo" class="logo">
           </a>
-
-          <!-- Toggler -->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      
+          <button class="navbar-toggler hamburger" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse" aria-controls="navbarCollapse"
+            aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-
-          <!-- Center: Navigation Links -->
-          <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse top_nav">
+      
+          <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
             <ul class="navbar-nav mb-2 mb-md-0 gap-md-4 nav_ul">
-              <li class="nav-item">
-                <a class="nav-link text-white active fw-semibold" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white fw-semibold" href="./about.html"> About Us </a>
-              </li>
+              <li class="nav-item"><a class="nav-link text-white fw-semibold" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link text-white fw-semibold" href="./about.html">About Us</a></li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle text-white fw-semibold" href="#" id="navbarDropdown" role="button"
-                  data-bs-toggle="dropdown" aria-expanded="false">
-                  Our Offerings
-                </a>
+                  data-bs-toggle="dropdown" aria-expanded="false">Our Offerings</a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="residential.html">Residential</a></li>
                   <li><a class="dropdown-item" href="commercial.html">Commercial</a></li>
@@ -66,19 +59,18 @@
                   <li><a class="dropdown-item" href="nalands.html">N.A. Lands</a></li>
                 </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link text-white fw-semibold" href="contact.html"> Contact Us </a>
-              </li>
+              <li class="nav-item"><a class="nav-link text-white fw-semibold" href="contact.html">Contact Us</a></li>
             </ul>
           </div>
-
-
-          <!-- Right: Contact Button -->
+      
           <div class="d-none d-md-block">
-            <a href="tel:+912248964333"> <button class="btn btn-outline-light text-black fw-semibold">Call +91 22 4896 4333</button> </a>
+            <a href="tel:+912248964333">
+              <button class="btn btn-outline-light text-black fw-semibold">Call +91 22 4896 4333</button>
+            </a>
           </div>
         </div>
       </nav>
+      
 
 
     </div>
@@ -115,27 +107,7 @@
             <h2 class="text-white" style="text-shadow: 3px 5px 4px black;">Welcome to Vibrant Lands</h2>
           </div>
         </div>
-        <!-- <div class="carousel-item">
-          <video class="img-fluid" autoplay loop muted>
-            <source src="https://mdbcdn.b-cdn.net/img/video/Agua-natural.mp4" type="video/mp4" />
-          </video>
-          <div class="carousel-caption  d-md-block">
-            <h2>Welcome to Vibrant Lands</h2>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-            <button type="button" class="btn btn-outline-header me-2 link-light mt-3"> Our Services </button>
-          </div>
-        </div> -->
       </div>
-
-      <!-- Controls -->
-      <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselVideoExample" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselVideoExample" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button> -->
     </div>
 
     <div class=" position-relative banner_options list-group  list-group-flush">
@@ -165,13 +137,13 @@
     <div class="container py-5">
       <p class="mb-4 text-center display-6">Non Agricultural Land</p>
 
-      <div id="cardCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div id="cardCarousel" class="carousel slide" data-bs-ride="carousel" >
         <div class="carousel-inner">
 
           <!-- Slide 1 -->
           <div class="carousel-item active">
             <div class="row">
-              <div class="col-md-3">
+              <div class="col-md-3 mb-3">
                 <a href="placeholder.html">
                   <div class="card n_a_land_card">
                     <img src="images/plotting.jpg" class="card-img-top" alt="...">
@@ -181,7 +153,7 @@
                   </div>
                 </a>
               </div>
-              <div class="col-md-3">
+              <div class="col-md-3 mb-3">
                 <a href="placeholder.html">
                   <div class="card n_a_land_card">
                     <img src="images/villas.jpg" class="card-img-top" alt="...">
@@ -191,7 +163,7 @@
                   </div>
                 </a>
               </div>
-              <div class="col-md-3">
+              <div class="col-md-3 mb-3">
                 <a href="placeholder.html">
                   <div class="card n_a_land_card">
                     <img src="images/industrial land.jpg" class="card-img-top" alt="...">
@@ -201,7 +173,7 @@
                   </div>
                 </a>
               </div>
-              <div class="col-md-3">
+              <div class="col-md-3 mb-3">
                 <a href="placeholder.html">
                   <div class="card n_a_land_card">
                     <img src="images/hotels.jpg" class="card-img-top" alt="..." style="height: 218px;">
@@ -217,7 +189,7 @@
         <!-- Slide 2 -->
         <div class="carousel-item">
           <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-3 mb-3">
               <a href="placeholder.html">
                 <div class="card n_a_land_card">
                   <img src="images/factory.jpg" class="card-img-top" alt="...">
@@ -227,7 +199,7 @@
                 </div>
               </a>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 mb-3">
               <a href="placeholder.html">
                 <div class="card n_a_land_card">
                   <img src="images/real estate.jpg" class="card-img-top" alt="...">
@@ -237,7 +209,7 @@
                 </div>
               </a>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 mb-3">
               <a href="placeholder.html">
                 <div class="card n_a_land_card">
                   <img src="images/property management.jpeg" class="card-img-top" alt="...">
@@ -247,7 +219,7 @@
                 </div>
               </a>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 mb-3">
               <a href="placeholder.html">
                 <div class="card n_a_land_card">
                   <img src="images/warehouse.jpg" class="card-img-top" alt="...">
@@ -263,14 +235,14 @@
       </div>
 
       <!-- Controls -->
-      <button class="carousel-control-prev n_a_land_prv_btn" type="button" data-bs-target="#cardCarousel"
+      <!-- <button class="carousel-control-prev n_a_land_prv_btn" type="button" data-bs-target="#cardCarousel"
         data-bs-slide="prev">
         <span class="carousel-control-prev-icon"></span>
       </button>
       <button class="carousel-control-next n_a_land_nxt_btn" type="button" data-bs-target="#cardCarousel"
         data-bs-slide="next">
         <span class="carousel-control-next-icon"></span>
-      </button>
+      </button> -->
     </div>
     </div>
   </section>
@@ -514,14 +486,6 @@
 
         </div>
 
-        <!-- Controls -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon"></span>
-        </button>
-
         <!-- Indicators -->
         <div class="carousel-indicators mt-3 oap_crsl_ind">
           <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="0" class="active"
@@ -535,7 +499,7 @@
   <!-- Our Associations Section -->
   <section class="bg-light">
     <div class="container my-5">
-      <p class="text-center mb-4 display-6">Our Associations</p>
+      <p class="text-center  display-6 p-3">Our Associations</p>
 
       <div id="associationsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
         <div class="carousel-inner">
